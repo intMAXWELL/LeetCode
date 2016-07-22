@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 
  * @author Demon
- * 最大公因数
+ * Greatest Common Divisor
  *
  */
 public class Main {
