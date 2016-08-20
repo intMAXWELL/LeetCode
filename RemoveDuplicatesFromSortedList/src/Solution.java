@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /**
  * 
  * @author Demon 2016.8.20
@@ -36,7 +38,6 @@ public class Solution {
 			if (tmp.val == current) { // Delete duplicates
 				pre.next = tmp.next;
 				tmp = pre.next;
-
 			} else {
 				pre = pre.next;
 				tmp = tmp.next;
